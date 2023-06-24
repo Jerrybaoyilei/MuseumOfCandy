@@ -1,3 +1,8 @@
+html {
+    scroll-padding-top: 68px;
+    /* Height of the fixed navbar to prevent navbar covering H2 titles */
+}
+
 body {
     background: #f5d9d5;
     font-family: "Nunito", sans-serif;
@@ -61,7 +66,7 @@ body {
 }
 
 /* Navbar scrolling */
-.navbar.scrolled {
+.navbar {
     background-color: #000000;
     transition: 0.5s;
 }
